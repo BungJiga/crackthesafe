@@ -1,4 +1,17 @@
-h1 { 
+*{
+
+font-family: 'Black Han Sans', sans-serif;
+
+}
+
+body{
+
+background-image: url("https://hdwallsource.com/img/2014/9/cool-matrix-wallpaper-37987-38857-hd-wallpapers.jpg");
+color:white;
+}
+
+
+h1 {
     text-align: center;
 }
 
@@ -23,10 +36,25 @@ input
 
 .row{
   text-align:center;
-  
+  background: rgba(0,0,0,0.7);
+  margin-top:3%;
+  margin-left: 20%;
+  margin-right:20%;
+  padding-bottom:40px;
+  padding-top:40px;
+
+
 }
 #choices{
   display:flex;
   justify-content:space-between;
-  
+
+}
+
+.inputBoxes{
+
+display:flex;
+justify-content: center;
+padding:10px;
+
 }
